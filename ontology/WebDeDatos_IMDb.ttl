@@ -1,0 +1,555 @@
+@prefix : <http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb> .
+
+<http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://webprotege.stanford.edu/R1pOWE1edjKGlOmkjdA0VZ
+<http://webprotege.stanford.edu/R1pOWE1edjKGlOmkjdA0VZ> rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf <http://webprotege.stanford.edu/RBn2IkzKUXYp0nGKLHI3t3L> ;
+                                                        rdfs:domain :OWLClass_a86202c9_0e9d_4c94_b389_c2478f0c2849 ;
+                                                        rdfs:range :OWLClass_9f3acffe_69d1_479c_a15c_3426cc3adfe1 ;
+                                                        rdfs:label "composed"@en .
+
+
+###  http://webprotege.stanford.edu/R75fjoOWaSz9kc3Jx5pWBMa
+<http://webprotege.stanford.edu/R75fjoOWaSz9kc3Jx5pWBMa> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf <http://webprotege.stanford.edu/RBn2IkzKUXYp0nGKLHI3t3L> ;
+                                                         rdfs:domain :OWLClass_9662f657_afee_45ac_9e18_c6bdc524e716 ;
+                                                         rdfs:range :OWLClass_9f3acffe_69d1_479c_a15c_3426cc3adfe1 ;
+                                                         rdfs:label "visuallyDesigned"@en .
+
+
+###  http://webprotege.stanford.edu/R7XtXtMBCnOJGGYFWnXHKP
+<http://webprotege.stanford.edu/R7XtXtMBCnOJGGYFWnXHKP> rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf <http://webprotege.stanford.edu/RBn2IkzKUXYp0nGKLHI3t3L> ;
+                                                        rdfs:domain :OWLClass_2f9995cc_b9db_4a24_b83d_d8fdd87d3da5 ;
+                                                        rdfs:range :OWLClass_9f3acffe_69d1_479c_a15c_3426cc3adfe1 ;
+                                                        rdfs:label "directed"@en .
+
+
+###  http://webprotege.stanford.edu/R9BtLFG2QjpdZ6cVeh7Lwjv
+<http://webprotege.stanford.edu/R9BtLFG2QjpdZ6cVeh7Lwjv> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:domain :OWLClass_5fb36d5b_3ea7_420e_8cdd_3ed93a79759e ;
+                                                         rdfs:range :OWLClass_a6071247_615b_4122_9a46_ec72734ffcd0 ;
+                                                         rdfs:label "worksIn"@en .
+
+
+###  http://webprotege.stanford.edu/R9bODdP0hzbbHwSz8gcMaeu
+<http://webprotege.stanford.edu/R9bODdP0hzbbHwSz8gcMaeu> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf <http://webprotege.stanford.edu/RBn2IkzKUXYp0nGKLHI3t3L> ;
+                                                         rdfs:domain :OWLClass_3d53a3b1_4799_4012_8deb_8a2097d5a3e7 ;
+                                                         rdfs:range :OWLClass_9f3acffe_69d1_479c_a15c_3426cc3adfe1 ;
+                                                         rdfs:label "cinematographed"@en .
+
+
+###  http://webprotege.stanford.edu/RB0TDAwi038Kxg24UnQEJRu
+<http://webprotege.stanford.edu/RB0TDAwi038Kxg24UnQEJRu> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf <http://webprotege.stanford.edu/RBn2IkzKUXYp0nGKLHI3t3L> ;
+                                                         rdfs:domain :OWLClass_f2e830f7_0762_4643_876f_87463aac2a89 ;
+                                                         rdfs:range :OWLClass_9f3acffe_69d1_479c_a15c_3426cc3adfe1 ;
+                                                         rdfs:label "wrote"@en .
+
+
+###  http://webprotege.stanford.edu/RB9deZqjHvDU0WBJ2WFh9hS
+<http://webprotege.stanford.edu/RB9deZqjHvDU0WBJ2WFh9hS> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf <http://webprotege.stanford.edu/RBn2IkzKUXYp0nGKLHI3t3L> ;
+                                                         rdfs:domain :OWLClass_312a50a4_9ef6_4357_bb52_f898db512019 ;
+                                                         rdfs:range :OWLClass_9f3acffe_69d1_479c_a15c_3426cc3adfe1 ;
+                                                         rdfs:label "edited"@en .
+
+
+###  http://webprotege.stanford.edu/RBST6Sc5nMIgUXXqxJt6rWc
+<http://webprotege.stanford.edu/RBST6Sc5nMIgUXXqxJt6rWc> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf :OWLObjectProperty_b3a5077b_141b_48dc_af6c_3b50012b58ae ;
+                                                         rdfs:domain :OWLClass_9f3acffe_69d1_479c_a15c_3426cc3adfe1 ;
+                                                         rdfs:range <http://webprotege.stanford.edu/RCI26R1LFafPvBWLUJtzYjy> ;
+                                                         rdfs:label "IMDbRating"@en .
+
+
+###  http://webprotege.stanford.edu/RBn2IkzKUXYp0nGKLHI3t3L
+<http://webprotege.stanford.edu/RBn2IkzKUXYp0nGKLHI3t3L> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:domain :OWLClass_5fb36d5b_3ea7_420e_8cdd_3ed93a79759e ;
+                                                         rdfs:range :OWLClass_9f3acffe_69d1_479c_a15c_3426cc3adfe1 ;
+                                                         rdfs:label "partOf"@en .
+
+
+###  http://webprotege.stanford.edu/RCtduqL2Ad6Zeo1VkvPZmGv
+<http://webprotege.stanford.edu/RCtduqL2Ad6Zeo1VkvPZmGv> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf <http://webprotege.stanford.edu/RBn2IkzKUXYp0nGKLHI3t3L> ;
+                                                         rdfs:domain :OWLClass_273717b4_9d27_4c82_a568_37fbf622641a ;
+                                                         rdfs:range :OWLClass_9f3acffe_69d1_479c_a15c_3426cc3adfe1 ;
+                                                         rdfs:label "produced"@en .
+
+
+###  http://webprotege.stanford.edu/RDaRYO6sWIWrZwPHzr1Ebny
+<http://webprotege.stanford.edu/RDaRYO6sWIWrZwPHzr1Ebny> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf <http://webprotege.stanford.edu/RBn2IkzKUXYp0nGKLHI3t3L> ;
+                                                         rdfs:domain :OWLClass_ec701b6e_4b88_4740_a053_5adc3d37925e ;
+                                                         rdfs:range :OWLClass_9f3acffe_69d1_479c_a15c_3426cc3adfe1 ;
+                                                         rdfs:label "actsIn"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLObjectProperty_13279deb_8926_49e0_9eaa_baeb07d2c2b8
+:OWLObjectProperty_13279deb_8926_49e0_9eaa_baeb07d2c2b8 rdf:type owl:ObjectProperty ;
+                                                        rdfs:domain :OWLClass_a6071247_615b_4122_9a46_ec72734ffcd0 ;
+                                                        rdfs:range :OWLClass_9f3acffe_69d1_479c_a15c_3426cc3adfe1 ;
+                                                        rdfs:label "produces"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLObjectProperty_31ae70d6_e87d_4428_8ee0_377e578cd652
+:OWLObjectProperty_31ae70d6_e87d_4428_8ee0_377e578cd652 rdf:type owl:ObjectProperty ;
+                                                        rdfs:domain :OWLClass_9f3acffe_69d1_479c_a15c_3426cc3adfe1 ;
+                                                        rdfs:range :OWLClass_0fd995ff_6a57_476f_a6bd_1efd170fb932 ;
+                                                        rdfs:label "genre"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLObjectProperty_b3a5077b_141b_48dc_af6c_3b50012b58ae
+:OWLObjectProperty_b3a5077b_141b_48dc_af6c_3b50012b58ae rdf:type owl:ObjectProperty ;
+                                                        rdfs:domain :OWLClass_9f3acffe_69d1_479c_a15c_3426cc3adfe1 ;
+                                                        rdfs:range :OWLClass_d096710c_8b93_491b_8690_15bbd7223103 ;
+                                                        rdfs:label "rating"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://webprotege.stanford.edu/R70R2JzVn9TbfJUEWPqnWom
+<http://webprotege.stanford.edu/R70R2JzVn9TbfJUEWPqnWom> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain :OWLClass_9f3acffe_69d1_479c_a15c_3426cc3adfe1 ;
+                                                         rdfs:range xsd:string ;
+                                                         rdfs:label "language"@en .
+
+
+###  http://webprotege.stanford.edu/R75WZ0Yjpmtz2Beg2wW56SY
+<http://webprotege.stanford.edu/R75WZ0Yjpmtz2Beg2wW56SY> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain :OWLClass_9f3acffe_69d1_479c_a15c_3426cc3adfe1 ;
+                                                         rdfs:range xsd:dateTime ;
+                                                         rdfs:label "datePublished"@en .
+
+
+###  http://webprotege.stanford.edu/R7kGzjoEaCBAOkv6b8ObDHc
+<http://webprotege.stanford.edu/R7kGzjoEaCBAOkv6b8ObDHc> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain :OWLClass_73f671db_81ed_4bf7_9182_f4c38af34934 ;
+                                                         rdfs:range xsd:int ;
+                                                         rdfs:label "numberOfDivorces"@en .
+
+
+###  http://webprotege.stanford.edu/R7pQa6BmM6MoYtvw453tIQR
+<http://webprotege.stanford.edu/R7pQa6BmM6MoYtvw453tIQR> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain :OWLClass_d096710c_8b93_491b_8690_15bbd7223103 ;
+                                                         rdfs:range xsd:int ;
+                                                         rdfs:label "numberOfRatings"@en .
+
+
+###  http://webprotege.stanford.edu/R8DFCrDr6dwvhkOipvoZfeB
+<http://webprotege.stanford.edu/R8DFCrDr6dwvhkOipvoZfeB> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain :OWLClass_73f671db_81ed_4bf7_9182_f4c38af34934 ;
+                                                         rdfs:range xsd:string ;
+                                                         rdfs:label "name"@en .
+
+
+###  http://webprotege.stanford.edu/R8gesf7Wz8kMxvGzInQmmmz
+<http://webprotege.stanford.edu/R8gesf7Wz8kMxvGzInQmmmz> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain :OWLClass_73f671db_81ed_4bf7_9182_f4c38af34934 ;
+                                                         rdfs:range xsd:string ;
+                                                         rdfs:label "countryOfDeath"@en .
+
+
+###  http://webprotege.stanford.edu/R8mdZlrMkf5Ndpr8MMQOQrS
+<http://webprotege.stanford.edu/R8mdZlrMkf5Ndpr8MMQOQrS> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain :OWLClass_9f3acffe_69d1_479c_a15c_3426cc3adfe1 ;
+                                                         rdfs:range xsd:float ;
+                                                         rdfs:label "duration"@en .
+
+
+###  http://webprotege.stanford.edu/R8qigdPVvS5fq4x5jxQB4H1
+<http://webprotege.stanford.edu/R8qigdPVvS5fq4x5jxQB4H1> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain :OWLClass_73f671db_81ed_4bf7_9182_f4c38af34934 ;
+                                                         rdfs:range xsd:int ;
+                                                         rdfs:label "numberOfSpouses"@en .
+
+
+###  http://webprotege.stanford.edu/R8wuJQjS0cL03bPMnktX5pG
+<http://webprotege.stanford.edu/R8wuJQjS0cL03bPMnktX5pG> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain :OWLClass_73f671db_81ed_4bf7_9182_f4c38af34934 ;
+                                                         rdfs:range xsd:string ;
+                                                         rdfs:label "cityOfDeath"@en .
+
+
+###  http://webprotege.stanford.edu/R90yyW69gjn99fLvFhhCSuP
+<http://webprotege.stanford.edu/R90yyW69gjn99fLvFhhCSuP> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain :OWLClass_d096710c_8b93_491b_8690_15bbd7223103 ;
+                                                         rdfs:range xsd:float ;
+                                                         rdfs:label "meanRating"@en .
+
+
+###  http://webprotege.stanford.edu/R9h66lni4H04CUWFB83uLKV
+<http://webprotege.stanford.edu/R9h66lni4H04CUWFB83uLKV> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain :OWLClass_73f671db_81ed_4bf7_9182_f4c38af34934 ;
+                                                         rdfs:range xsd:dateTime ;
+                                                         rdfs:label "dateOfDeath"@en .
+
+
+###  http://webprotege.stanford.edu/R9iulT6OXfco33t8LSlhmSs
+<http://webprotege.stanford.edu/R9iulT6OXfco33t8LSlhmSs> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain :OWLClass_9f3acffe_69d1_479c_a15c_3426cc3adfe1 ;
+                                                         rdfs:range xsd:string ;
+                                                         rdfs:label "description"@en .
+
+
+###  http://webprotege.stanford.edu/RBMMCNNfEhm6gZd4KM5K0iv
+<http://webprotege.stanford.edu/RBMMCNNfEhm6gZd4KM5K0iv> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain :OWLClass_9f3acffe_69d1_479c_a15c_3426cc3adfe1 ;
+                                                         rdfs:range xsd:int ;
+                                                         rdfs:label "yearPublished"@en .
+
+
+###  http://webprotege.stanford.edu/RBRYgWouAbHYA0iWLvkMuLh
+<http://webprotege.stanford.edu/RBRYgWouAbHYA0iWLvkMuLh> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain :OWLClass_73f671db_81ed_4bf7_9182_f4c38af34934 ;
+                                                         rdfs:range xsd:dateTime ;
+                                                         rdfs:label "dateOfBirth"@en .
+
+
+###  http://webprotege.stanford.edu/RCiViQxZzoJenk7nY8OAm7F
+<http://webprotege.stanford.edu/RCiViQxZzoJenk7nY8OAm7F> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain :OWLClass_9f3acffe_69d1_479c_a15c_3426cc3adfe1 ;
+                                                         rdfs:range xsd:string ;
+                                                         rdfs:label "country"@en .
+
+
+###  http://webprotege.stanford.edu/RDiMfYvMvWYaDBQXuYZrB2i
+<http://webprotege.stanford.edu/RDiMfYvMvWYaDBQXuYZrB2i> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain :OWLClass_9f3acffe_69d1_479c_a15c_3426cc3adfe1 ;
+                                                         rdfs:range xsd:string ;
+                                                         rdfs:label "productionCompany"@en .
+
+
+###  http://webprotege.stanford.edu/RDsuiGOqkQFGniJ2YXfwHzk
+<http://webprotege.stanford.edu/RDsuiGOqkQFGniJ2YXfwHzk> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain :OWLClass_9f3acffe_69d1_479c_a15c_3426cc3adfe1 ;
+                                                         rdfs:range xsd:float ;
+                                                         rdfs:label "medianRating"@en .
+
+
+###  http://webprotege.stanford.edu/RGjxWI0sBjJQ4ERUN8CoKj
+<http://webprotege.stanford.edu/RGjxWI0sBjJQ4ERUN8CoKj> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain :OWLClass_73f671db_81ed_4bf7_9182_f4c38af34934 ;
+                                                        rdfs:range xsd:string ;
+                                                        rdfs:label "countryOfBirth"@en .
+
+
+###  http://webprotege.stanford.edu/RbpMkJCV3FVIbRG0kN0EFc
+<http://webprotege.stanford.edu/RbpMkJCV3FVIbRG0kN0EFc> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain :OWLClass_73f671db_81ed_4bf7_9182_f4c38af34934 ;
+                                                        rdfs:range xsd:float ;
+                                                        rdfs:label "height"@en .
+
+
+###  http://webprotege.stanford.edu/RkAurq12FSG2YhjUVfI5Dz
+<http://webprotege.stanford.edu/RkAurq12FSG2YhjUVfI5Dz> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain :OWLClass_9f3acffe_69d1_479c_a15c_3426cc3adfe1 ;
+                                                        rdfs:range xsd:string ;
+                                                        rdfs:label "title"@en .
+
+
+###  http://webprotege.stanford.edu/Rw2H16g7iWgqGaeQrJ4fcC
+<http://webprotege.stanford.edu/Rw2H16g7iWgqGaeQrJ4fcC> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain :OWLClass_73f671db_81ed_4bf7_9182_f4c38af34934 ;
+                                                        rdfs:range xsd:int ;
+                                                        rdfs:label "numberOfChildren"@en .
+
+
+###  http://webprotege.stanford.edu/RwXUuDNUC4oGeDDbcIUav9
+<http://webprotege.stanford.edu/RwXUuDNUC4oGeDDbcIUav9> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain :OWLClass_73f671db_81ed_4bf7_9182_f4c38af34934 ;
+                                                        rdfs:range xsd:string ;
+                                                        rdfs:label "cityOfBirth"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://webprotege.stanford.edu/RCI26R1LFafPvBWLUJtzYjy
+<http://webprotege.stanford.edu/RCI26R1LFafPvBWLUJtzYjy> rdf:type owl:Class ;
+                                                         rdfs:subClassOf :OWLClass_d096710c_8b93_491b_8690_15bbd7223103 ;
+                                                         rdfs:label "IMDbRating"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_02215fcf_1227_4eec_8977_77729470e6d0
+:OWLClass_02215fcf_1227_4eec_8977_77729470e6d0 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_da9a600b_ce27_4416_af79_203e21b910fd ;
+                                               rdfs:label "Musical"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_0fd995ff_6a57_476f_a6bd_1efd170fb932
+:OWLClass_0fd995ff_6a57_476f_a6bd_1efd170fb932 rdf:type owl:Class ;
+                                               rdfs:label "Genre"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_1c9cbd53_75aa_42f0_964c_f6f7584cc5c7
+:OWLClass_1c9cbd53_75aa_42f0_964c_f6f7584cc5c7 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_da9a600b_ce27_4416_af79_203e21b910fd ;
+                                               rdfs:label "News"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_273717b4_9d27_4c82_a568_37fbf622641a
+:OWLClass_273717b4_9d27_4c82_a568_37fbf622641a rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_5fb36d5b_3ea7_420e_8cdd_3ed93a79759e ;
+                                               rdfs:label "Producer"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_2f9995cc_b9db_4a24_b83d_d8fdd87d3da5
+:OWLClass_2f9995cc_b9db_4a24_b83d_d8fdd87d3da5 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_5fb36d5b_3ea7_420e_8cdd_3ed93a79759e ;
+                                               rdfs:label "Director"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_312a50a4_9ef6_4357_bb52_f898db512019
+:OWLClass_312a50a4_9ef6_4357_bb52_f898db512019 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_5fb36d5b_3ea7_420e_8cdd_3ed93a79759e ;
+                                               rdfs:label "Editor"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_393bfb6b_2e47_494e_9529_e93c8347b0c4
+:OWLClass_393bfb6b_2e47_494e_9529_e93c8347b0c4 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_da9a600b_ce27_4416_af79_203e21b910fd ;
+                                               rdfs:label "Adventure"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_3d53a3b1_4799_4012_8deb_8a2097d5a3e7
+:OWLClass_3d53a3b1_4799_4012_8deb_8a2097d5a3e7 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_5fb36d5b_3ea7_420e_8cdd_3ed93a79759e ;
+                                               rdfs:label "Cinematographer"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_3e0d1abd_291e_4bfd_a6ea_478545aeb362
+:OWLClass_3e0d1abd_291e_4bfd_a6ea_478545aeb362 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_da9a600b_ce27_4416_af79_203e21b910fd ;
+                                               rdfs:label "Comedy"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_3fe3af46_0efb_4482_bb91_1d5c5c0e61d6
+:OWLClass_3fe3af46_0efb_4482_bb91_1d5c5c0e61d6 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_da9a600b_ce27_4416_af79_203e21b910fd ;
+                                               rdfs:label "Horror"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_484d304d_e3bd_4a65_99b1_080d549378e5
+:OWLClass_484d304d_e3bd_4a65_99b1_080d549378e5 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_da9a600b_ce27_4416_af79_203e21b910fd ;
+                                               rdfs:label "Animation"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_4a8904a2_4f85_47a3_9e3e_d09cc95df84f
+:OWLClass_4a8904a2_4f85_47a3_9e3e_d09cc95df84f rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_da9a600b_ce27_4416_af79_203e21b910fd ;
+                                               rdfs:label "Adult"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_4c8e95f7_615b_4d4b_b4a3_c9c9b852fe5d
+:OWLClass_4c8e95f7_615b_4d4b_b4a3_c9c9b852fe5d rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_da9a600b_ce27_4416_af79_203e21b910fd ;
+                                               rdfs:label "Biography"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_5810e29b_4609_4fed_8675_75af7afaeb81
+:OWLClass_5810e29b_4609_4fed_8675_75af7afaeb81 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_da9a600b_ce27_4416_af79_203e21b910fd ;
+                                               rdfs:label "Music"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_5b8e2239_ea18_4913_9d2a_1fc6a06f3a1d
+:OWLClass_5b8e2239_ea18_4913_9d2a_1fc6a06f3a1d rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_da9a600b_ce27_4416_af79_203e21b910fd ;
+                                               rdfs:label "Film-Noir"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_5fb36d5b_3ea7_420e_8cdd_3ed93a79759e
+:OWLClass_5fb36d5b_3ea7_420e_8cdd_3ed93a79759e rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_73f671db_81ed_4bf7_9182_f4c38af34934 ;
+                                               rdfs:label "MoviePerson"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_73f671db_81ed_4bf7_9182_f4c38af34934
+:OWLClass_73f671db_81ed_4bf7_9182_f4c38af34934 rdf:type owl:Class ;
+                                               rdfs:label "Person"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_7e70030c_6814_4349_a1ac_ba5e087906bf
+:OWLClass_7e70030c_6814_4349_a1ac_ba5e087906bf rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_da9a600b_ce27_4416_af79_203e21b910fd ;
+                                               rdfs:label "Family"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_90b42cf3_a35d_4f9e_8502_e1164fc4b30c
+:OWLClass_90b42cf3_a35d_4f9e_8502_e1164fc4b30c rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_da9a600b_ce27_4416_af79_203e21b910fd ;
+                                               rdfs:label "Action"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_93c9bbb6_198e_434b_9779_143b24eb418a
+:OWLClass_93c9bbb6_198e_434b_9779_143b24eb418a rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_da9a600b_ce27_4416_af79_203e21b910fd ;
+                                               rdfs:label "History"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_9662f657_afee_45ac_9e18_c6bdc524e716
+:OWLClass_9662f657_afee_45ac_9e18_c6bdc524e716 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_5fb36d5b_3ea7_420e_8cdd_3ed93a79759e ;
+                                               rdfs:label "ProductionDesigner"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_9f3acffe_69d1_479c_a15c_3426cc3adfe1
+:OWLClass_9f3acffe_69d1_479c_a15c_3426cc3adfe1 rdf:type owl:Class ;
+                                               rdfs:label "Movie"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_a6071247_615b_4122_9a46_ec72734ffcd0
+:OWLClass_a6071247_615b_4122_9a46_ec72734ffcd0 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_f256b491_4e64_4e36_a300_6616cdd8b7aa ;
+                                               rdfs:label "MovieIndustry"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_a86202c9_0e9d_4c94_b389_c2478f0c2849
+:OWLClass_a86202c9_0e9d_4c94_b389_c2478f0c2849 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_5fb36d5b_3ea7_420e_8cdd_3ed93a79759e ;
+                                               rdfs:label "Composer"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_af7d80a6_4c0c_4d31_a9d7_fc05b4d5430b
+:OWLClass_af7d80a6_4c0c_4d31_a9d7_fc05b4d5430b rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_da9a600b_ce27_4416_af79_203e21b910fd ;
+                                               rdfs:label "Documentary"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_c6bc218a_c91a_4598_aa17_9b6f79377c2f
+:OWLClass_c6bc218a_c91a_4598_aa17_9b6f79377c2f rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_da9a600b_ce27_4416_af79_203e21b910fd ;
+                                               rdfs:label "Reality-TV"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_cc20e3f0_fb7e_4d57_b4b4_4f81ab224f0c
+:OWLClass_cc20e3f0_fb7e_4d57_b4b4_4f81ab224f0c rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_da9a600b_ce27_4416_af79_203e21b910fd ;
+                                               rdfs:label "Crime"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_d096710c_8b93_491b_8690_15bbd7223103
+:OWLClass_d096710c_8b93_491b_8690_15bbd7223103 rdf:type owl:Class ;
+                                               rdfs:label "Rating"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_d84a971c_c19e_4bf7_b435_fa08ce595080
+:OWLClass_d84a971c_c19e_4bf7_b435_fa08ce595080 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_da9a600b_ce27_4416_af79_203e21b910fd ;
+                                               rdfs:label "Drama"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_da9a600b_ce27_4416_af79_203e21b910fd
+:OWLClass_da9a600b_ce27_4416_af79_203e21b910fd rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_0fd995ff_6a57_476f_a6bd_1efd170fb932 ;
+                                               rdfs:label "MovieGenre"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_df11328e_7ccd_418f_a034_76ce1f71aa8b
+:OWLClass_df11328e_7ccd_418f_a034_76ce1f71aa8b rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_da9a600b_ce27_4416_af79_203e21b910fd ;
+                                               rdfs:label "Western"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_df4d87b5_94b9_43dd_85f6_1830ba88de96
+:OWLClass_df4d87b5_94b9_43dd_85f6_1830ba88de96 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_da9a600b_ce27_4416_af79_203e21b910fd ;
+                                               rdfs:label "Romance"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_e600f9e6_6432_4223_bc8a_0eebb9ca1753
+:OWLClass_e600f9e6_6432_4223_bc8a_0eebb9ca1753 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_da9a600b_ce27_4416_af79_203e21b910fd ;
+                                               rdfs:label "Sport"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_e78b4aa8_9e36_46b9_981c_581d06c3e5cd
+:OWLClass_e78b4aa8_9e36_46b9_981c_581d06c3e5cd rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_da9a600b_ce27_4416_af79_203e21b910fd ;
+                                               rdfs:label "Mystery"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_ebd219e6_9fda_47ff_a793_e05066619164
+:OWLClass_ebd219e6_9fda_47ff_a793_e05066619164 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_da9a600b_ce27_4416_af79_203e21b910fd ;
+                                               rdfs:label "Thriller"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_ec2fc55b_3451_42bb_ab1a_2707fe470be7
+:OWLClass_ec2fc55b_3451_42bb_ab1a_2707fe470be7 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_da9a600b_ce27_4416_af79_203e21b910fd ;
+                                               rdfs:label "War"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_ec701b6e_4b88_4740_a053_5adc3d37925e
+:OWLClass_ec701b6e_4b88_4740_a053_5adc3d37925e rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_5fb36d5b_3ea7_420e_8cdd_3ed93a79759e ;
+                                               rdfs:label "Actor"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_f256b491_4e64_4e36_a300_6616cdd8b7aa
+:OWLClass_f256b491_4e64_4e36_a300_6616cdd8b7aa rdf:type owl:Class ;
+                                               rdfs:label "Industry"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_f2e830f7_0762_4643_876f_87463aac2a89
+:OWLClass_f2e830f7_0762_4643_876f_87463aac2a89 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_5fb36d5b_3ea7_420e_8cdd_3ed93a79759e ;
+                                               rdfs:label "Writer"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_f8d578d2_aae1_4fd1_a5b6_5b70080692e3
+:OWLClass_f8d578d2_aae1_4fd1_a5b6_5b70080692e3 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_da9a600b_ce27_4416_af79_203e21b910fd ;
+                                               rdfs:label "Sci-Fi"@en .
+
+
+###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_fc793432_8a9a_4a7a_af1e_3c5c8fa27400
+:OWLClass_fc793432_8a9a_4a7a_af1e_3c5c8fa27400 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_da9a600b_ce27_4416_af79_203e21b910fd ;
+                                               rdfs:label "Fantasy"@en .
+
+
+###  Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi
