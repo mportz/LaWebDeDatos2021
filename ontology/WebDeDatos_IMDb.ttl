@@ -397,7 +397,7 @@
 ###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_5b8e2239_ea18_4913_9d2a_1fc6a06f3a1d
 :OWLClass_5b8e2239_ea18_4913_9d2a_1fc6a06f3a1d rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_da9a600b_ce27_4416_af79_203e21b910fd ;
-                                               rdfs:label "Film-Noir"@en .
+                                               rdfs:label "FilmNoir"@en .
 
 
 ###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_5fb36d5b_3ea7_420e_8cdd_3ed93a79759e
@@ -461,7 +461,7 @@
 ###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_c6bc218a_c91a_4598_aa17_9b6f79377c2f
 :OWLClass_c6bc218a_c91a_4598_aa17_9b6f79377c2f rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_da9a600b_ce27_4416_af79_203e21b910fd ;
-                                               rdfs:label "Reality-TV"@en .
+                                               rdfs:label "RealityTV"@en .
 
 
 ###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_cc20e3f0_fb7e_4d57_b4b4_4f81ab224f0c
@@ -543,7 +543,7 @@
 ###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_f8d578d2_aae1_4fd1_a5b6_5b70080692e3
 :OWLClass_f8d578d2_aae1_4fd1_a5b6_5b70080692e3 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_da9a600b_ce27_4416_af79_203e21b910fd ;
-                                               rdfs:label "Sci-Fi"@en .
+                                               rdfs:label "SciFi"@en .
 
 
 ###  http://www.semanticweb.org/manuel/ontologies/2021/10/WebDeDatos_IMDb#OWLClass_fc793432_8a9a_4a7a_af1e_3c5c8fa27400
