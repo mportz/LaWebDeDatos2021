@@ -34,5 +34,5 @@ The ontology was created using WebProtégé. We decided against using existing n
 
 ## Populating the Ontology
 Populating the ontology was done with the notebook *ontology_population.ipynb*. We ran the notebook on Google Colab because we had difficulties with the package rdflib locally.
-The final populated ontology is unfortunately too large for GitHub, here you can download the file: https://studentkit-my.sharepoint.com/:u:/g/personal/ucevw_student_kit_edu/ESfaEEs32ERHqBBZ71wpKuMBr0Hd_y2UGXEQdGaPOJJUqw?e=0JQpou
+The final populated ontology is unfortunately too large for GitHub, here you can download the file: https://drive.google.com/file/d/1TGA69xVjFWztSNHQ6R4ugVQWSoYhLunS/view?usp=sharing
 
