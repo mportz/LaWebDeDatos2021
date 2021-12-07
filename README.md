@@ -36,3 +36,6 @@ The ontology was created using WebProtégé. We decided against using existing n
 Populating the ontology was done with the notebook *ontology_population.ipynb*. We ran the notebook on Google Colab because we had difficulties with the package rdflib locally.
 The final populated ontology is unfortunately too large for GitHub, here you can download the file: https://drive.google.com/file/d/1TGA69xVjFWztSNHQ6R4ugVQWSoYhLunS/view?usp=sharing
 
+## Queries
+After populating the ontology, we defined some queries to show interesting questions that can now be answered woth the help of SPARQL and the populated IMDb ontology. These queries can be found in the file *./queries.md*
+
